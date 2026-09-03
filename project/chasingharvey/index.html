@@ -7,21 +7,21 @@
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="author" content="Remy Webber">
 <meta name="theme-color" content="#151412">
-<link rel="canonical" href="https://remywebber.com/chasingharvey/">
+<link rel="canonical" href="https://remywebber.com/project/chasingharvey/">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Favicons -->
-<link rel="icon" href="../favicon.ico" sizes="any">
-<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
-<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
-<link rel="manifest" href="../site.webmanifest">
+<link rel="icon" href="../../favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
+<link rel="manifest" href="../../site.webmanifest">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Remy Webber — Director of Photography">
 <meta property="og:title" content="Chasing Harvey | Remy Webber">
 <meta property="og:description" content="Dir. Jessica Fisher — Short Film. Cinematography by Remy Webber, shot on ARRI Alexa Mini LF — DZO Pavo 2x Anamorphic.">
-<meta property="og:url" content="https://remywebber.com/chasingharvey/">
+<meta property="og:url" content="https://remywebber.com/project/chasingharvey/">
 <meta property="og:image" content="https://remywebber.com/images/work/chasingharvey/shortfilm-alexa-mini-lf-dzoanamorphic-ACS-awards-cinematography.jpeg">
 <meta property="og:image:alt" content="Chasing Harvey — still, cinematography by Remy Webber">
 <meta property="og:locale" content="en_AU">
@@ -37,7 +37,7 @@
   "@context": "https://schema.org",
   "@type": "CreativeWork",
   "name": "Chasing Harvey",
-  "url": "https://remywebber.com/chasingharvey/",
+  "url": "https://remywebber.com/project/chasingharvey/",
   "image": "https://remywebber.com/images/work/chasingharvey/shortfilm-alexa-mini-lf-dzoanamorphic-ACS-awards-cinematography.jpeg",
   "creator": {
     "@type": "Person",
@@ -183,12 +183,12 @@
 
 <header>
   <div class="id-block">
-    <a href="../"><h1>Remy Webber</h1></a>
+    <a href="../../"><h1>Remy Webber</h1></a>
     <div class="role">Director of Photography</div>
   </div>
   <nav aria-label="Main Navigation">
-    <a href="../work/" class="active">Work</a>
-    <a href="../contact/">Contact</a>
+    <a href="../../work/" class="active">Work</a>
+    <a href="../../contact/">Contact</a>
   </nav>
 </header>
 
@@ -207,9 +207,9 @@
 
 <footer>
   <nav aria-label="Footer">
-    <a href="../">Home</a>
-    <a href="../contact/">Contact</a>
-    <a href="https://www.instagram.com/remy_webber/" rel="me noopener noreferrer" target="_blank" aria-label="Instagram"><img src="../images/icons/instagram.png" alt=""></a>
+    <a href="../../">Home</a>
+    <a href="../../contact/">Contact</a>
+    <a href="https://www.instagram.com/remy_webber/" rel="me noopener noreferrer" target="_blank" aria-label="Instagram"><img src="../../images/icons/instagram.png" alt=""></a>
   </nav>
   <span class="service-area">Available for narrative, documentary, music video and commercial work across Queensland and Australia.</span>
   <span>© 2026 Remy Webber</span>
@@ -234,9 +234,9 @@
 
   function stillUrl(project, n){
     if(n === 1 && project.firstStill){
-      return '../images/work/' + project.slug + '/' + project.firstStill + '.jpeg';
+      return '../../images/work/' + project.slug + '/' + project.firstStill + '.jpeg';
     }
-    return '../images/work/' + project.slug + '/' + project.slug + '-' + n + '.jpeg';
+    return '../../images/work/' + project.slug + '/' + project.slug + '-' + n + '.jpeg';
   }
 
   const p = projects.find(pr => pr.slug === CURRENT_SLUG) || projects[0];
