@@ -113,13 +113,19 @@
   .project-info .meta{font-size:0.9rem;color:var(--accent);}
   .project-info .camera{font-size:0.82rem;color:var(--accent);margin-top:10px;}
 
-  /* Stills — full-width, native aspect ratio, stacked vertically, like
-     scrolling through a reel of frames rather than a cropped thumbnail grid. */
-  .stills-column{display:flex;flex-direction:column;gap:10px;}
+  /* Stills — each keeps its own native aspect ratio (no forced crop or
+     letterbox). Height is capped at 2/3 of the viewport so no still ever
+     outgrows the screen; width scales down to match, and the image
+     centres in the column. Generous vertical gap between frames, in the
+     spirit of greigfraser.com's stacked stills. */
+  .stills-column{display:flex;flex-direction:column;gap:56px;}
   .stills-column img{
-    width:100%;
+    max-width:100%;
+    max-height:66.67vh;
+    width:auto;
     height:auto;
     display:block;
+    margin:0 auto;
     background:#1a1a18;
     border-radius:2px;
   }
