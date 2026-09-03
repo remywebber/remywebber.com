@@ -228,7 +228,7 @@
     position:relative;
     display:block;
     width:auto;
-    height:clamp(140px, 22vw, 340px); /* fallback until JS measures a tile */
+    height:clamp(168px, 26.4vw, 408px); /* fallback until JS measures a tile, +20% */
     aspect-ratio:16/9;
     overflow:hidden;
     border:none;
@@ -437,7 +437,9 @@
     const reel = document.querySelector('.reel-hero');
     if(!tile || !reel) return;
     const h = tile.getBoundingClientRect().height;
-    if(h > 0) reel.style.height = h + 'px';
+    /* Reel block is sized 20% larger than a project tile so it stands
+       out as the featured item above the grid. */
+    if(h > 0) reel.style.height = (h * 1.2) + 'px';
   }
 
   buildReel();
