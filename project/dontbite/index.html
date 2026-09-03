@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dont Bite | Remy Webber</title>
+<meta name="description" content="Dir. Seth Griffiths-Kemp — Visualiser. Cinematography by Remy Webber, shot on Sony FX6 — Tokina Vista Primes.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="Remy Webber">
+<meta name="theme-color" content="#151412">
+<link rel="canonical" href="https://remywebber.com/dontbite/">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Favicons -->
+<link rel="icon" href="../favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+<link rel="manifest" href="../site.webmanifest">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Remy Webber — Director of Photography">
+<meta property="og:title" content="Dont Bite | Remy Webber">
+<meta property="og:description" content="Dir. Seth Griffiths-Kemp — Visualiser. Cinematography by Remy Webber, shot on Sony FX6 — Tokina Vista Primes.">
+<meta property="og:url" content="https://remywebber.com/dontbite/">
+<meta property="og:image" content="https://remywebber.com/images/work/dontbite/visualiser-alexa-mini-lf-zeiss-ACS-awards-cinematography.jpeg">
+<meta property="og:image:alt" content="Dont Bite — still, cinematography by Remy Webber">
+<meta property="og:locale" content="en_AU">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dont Bite | Remy Webber">
+<meta name="twitter:description" content="Dir. Seth Griffiths-Kemp — Visualiser. Cinematography by Remy Webber, shot on Sony FX6 — Tokina Vista Primes.">
+<meta name="twitter:image" content="https://remywebber.com/images/work/dontbite/visualiser-alexa-mini-lf-zeiss-ACS-awards-cinematography.jpeg">
+
+<!-- JSON-LD CreativeWork Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "Dont Bite",
+  "url": "https://remywebber.com/dontbite/",
+  "image": "https://remywebber.com/images/work/dontbite/visualiser-alexa-mini-lf-zeiss-ACS-awards-cinematography.jpeg",
+  "creator": {
+    "@type": "Person",
+    "name": "Remy Webber",
+    "jobTitle": "Director of Photography",
+    "url": "https://remywebber.com/"
+  }
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --paper:#FFFEFB;
+    --ink:#151412;
+    --muted:#8A8674;
+    --line:#E3DECD;
+    --accent:#8D7153;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Inter',sans-serif;
+    line-height:1.5;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+  }
+  a{color:inherit;text-decoration:none;}
+  ::selection{background:var(--ink);color:var(--paper);}
+
+  header{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    padding:44px 56px 40px;
+    flex-wrap:wrap;
+    gap:20px;
+  }
+  .id-block{display:flex;flex-direction:column;align-items:center;}
+  .id-block h1{font-size:1.9rem;font-weight:700;letter-spacing:0.01em;text-transform:uppercase;}
+  .id-block .role{margin-top:4px;font-size:0.7rem;color:var(--muted);letter-spacing:0.06em;text-transform:uppercase;text-align:center;}
+  nav{display:flex;gap:36px;padding-top:8px;}
+  nav a{font-size:0.82rem;letter-spacing:0.04em;text-transform:uppercase;color:var(--ink);padding-bottom:4px;border-bottom:1px solid transparent;transition:border-color .15s ease;}
+  nav a:hover, nav a.active{border-color:var(--ink);}
+
+  @media (orientation: portrait){
+    header{flex-direction:column;align-items:center;text-align:center;}
+    nav{justify-content:center;width:100%;padding-top:4px;}
+  }
+
+  /* Project detail layout — info panel on the left (sticky), stills
+     stacked on the right, in the spirit of greigfraser.com / autumndurald.com */
+  main{
+    flex:1;
+    display:grid;
+    grid-template-columns:minmax(240px, 340px) 1fr;
+    gap:56px;
+    padding:20px 56px 100px;
+    align-items:start;
+  }
+
+  .project-info{
+    position:sticky;
+    top:32px;
+  }
+
+  .project-nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom:36px;
+  }
+  .project-nav a{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:38px;height:38px;
+    color:var(--accent);
+    font-size:1.3rem;
+    transition:color .15s ease;
+  }
+  .project-nav a:hover{color:var(--ink);}
+
+  .project-info h2{
+    font-size:clamp(1.5rem, 2.4vw, 2.1rem);
+    font-weight:700;
+    letter-spacing:0.01em;
+    text-transform:uppercase;
+    line-height:1.2;
+    margin-bottom:14px;
+  }
+  .project-info .meta{font-size:0.9rem;color:var(--accent);}
+  .project-info .camera{font-size:0.82rem;color:var(--accent);margin-top:10px;}
+
+  /* Stills — each keeps its own native aspect ratio (no forced crop or
+     letterbox). Height is capped at 2/3 of the viewport so no still ever
+     outgrows the screen; width scales down to match, and the image
+     centres in the column. Generous vertical gap between frames, in the
+     spirit of greigfraser.com's stacked stills. */
+  .stills-column{display:flex;flex-direction:column;gap:56px;}
+  .stills-column img{
+    max-width:100%;
+    max-height:66.67vh;
+    width:auto;
+    height:auto;
+    display:block;
+    margin:0 auto;
+    background:#1a1a18;
+    border-radius:2px;
+  }
+
+  footer{
+    padding:28px 56px 40px;
+    font-size:0.75rem;
+    color:var(--accent);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+    text-align:center;
+  }
+  footer nav{padding-top:0;gap:24px;}
+  footer nav a{font-size:0.72rem;display:inline-flex;align-items:center;}
+  footer nav a img{width:1em;height:1em;display:block;}
+  footer .service-area{max-width:760px;}
+
+  @media(max-width:900px){
+    main{grid-template-columns:1fr;gap:32px;padding:10px 24px 60px;}
+    .project-info{position:static;}
+  }
+  @media(max-width:820px){
+    header{padding:28px 24px;}
+  }
+  :focus-visible{outline:2px solid var(--ink);outline-offset:3px;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="id-block">
+    <a href="../"><h1>Remy Webber</h1></a>
+    <div class="role">Director of Photography</div>
+  </div>
+  <nav aria-label="Main Navigation">
+    <a href="../work/" class="active">Work</a>
+    <a href="../contact/">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <div class="project-info">
+    <div class="project-nav">
+      <a id="prevProject" href="../mudman/" aria-label="Previous project: Mud Man">&larr;</a>
+      <a id="nextProject" href="../littlepumpkin/" aria-label="Next project: Little Pumpkin">&rarr;</a>
+    </div>
+    <h2>Dont Bite</h2>
+    <p class="meta">Dir. Seth Griffiths-Kemp — Visualiser</p>
+    <p class="camera">Sony FX6 — Tokina Vista Primes</p>
+  </div>
+  <div class="stills-column" id="stillsColumn"></div>
+</main>
+
+<footer>
+  <nav aria-label="Footer">
+    <a href="../">Home</a>
+    <a href="../contact/">Contact</a>
+    <a href="https://www.instagram.com/remy_webber/" rel="me noopener noreferrer" target="_blank" aria-label="Instagram"><img src="../images/icons/instagram.png" alt=""></a>
+  </nav>
+  <span class="service-area">Available for narrative, documentary, music video and commercial work across Queensland and Australia.</span>
+  <span>© 2026 Remy Webber</span>
+</footer>
+
+<script>
+  /* This page is one project's own real URL (remywebber.com/dontbite/).
+     Same source-of-truth project list as /work/ — kept in sync manually
+     since this is a static site with no shared include mechanism. */
+  const CURRENT_SLUG = "dontbite";
+  const projects = [
+    { title:"Little Pumpkin", slug:"littlepumpkin", meta:"Dir. Jessica Fisher \u2014 Short Film", count:8, firstStill:"shortfilm-alexa-mini-lf-tokinavista-ACS-awards-cinematography", camera:"ARRI Alexa Mini LF \u2014 Tokina Vista Primes" },
+    { title:"BROOD", slug:"brood", meta:"Dir. Sasha Aubort \u2014 Fashion Film", count:11, firstStill:"fashionfilm-alexa-mini-lf-canonv35-ACS-awards-cinematography", camera:"ARRI Alexa Mini LF \u2014 Canon V35, Mamiya 645, Angenieux Optimo 24-290mm" },
+    { title:"No Devil Lived On", slug:"nodevillivedon", meta:"Dir. Shuban Krishnan \u2014 Short Film", count:8, firstStill:"shortfilm-alexa-mini-lf-panavisionprimo-ACS-awards-cinematography", camera:"ARRI Alexa Mini \u2014 Panavision Primo Noir" },
+    { title:"Chasing Harvey", slug:"chasingharvey", meta:"Dir. Jessica Fisher \u2014 Short Film", count:8, firstStill:"shortfilm-alexa-mini-lf-dzoanamorphic-ACS-awards-cinematography", camera:"ARRI Alexa Mini LF \u2014 DZO Pavo 2x Anamorphic" },
+    { title:"Housemate from Hell", slug:"housematefromhell", meta:"Dir. Jessica Fisher \u2014 Short Film", count:10, firstStill:"shortfilm-alexa-mini-lf-dzoarles-ACS-awards-cinematography", camera:"ARRI Alexa Mini LF \u2014 DZO Arles Primes" },
+    { title:"Travel Money Oz \u2014 \u201cFeverdream\u201d", slug:"travelmoneyoz", meta:"Dir. Reilly Vanniekerk \u2014 Commercial", count:6, firstStill:"commercial-alexa-mini-lf-tokinavista-ACS-awards-cinematography", camera:"ARRI Alexa Mini LF \u2014 Tokina Vista Primes" },
+    { title:"Solitude", slug:"solitude", meta:"Dir. Maia Jorgensen \u2014 Short Film", count:9, firstStill:"shortfilm-alexa-mini-lf-mamiya-ACS-awards-cinematography", camera:"ARRI Alexa Mini LF \u2014 Mamiya 645, Zeiss CP2 Primes" },
+    { title:"Mud Man", slug:"mudman", meta:"Dir. Madi Lee-Hislop \u2014 Dance Film", count:7, firstStill:"dancefilm-alexa-mini-lf-sigma-ACS-awards-cinematography", camera:"ARRI Alexa Mini LF \u2014 Canon Sumire Primes" },
+    { title:"Dont Bite", slug:"dontbite", meta:"Dir. Seth Griffiths-Kemp \u2014 Visualiser", count:6, firstStill:"visualiser-alexa-mini-lf-zeiss-ACS-awards-cinematography", camera:"Sony FX6 \u2014 Tokina Vista Primes" }
+  ];
+
+  function stillUrl(project, n){
+    if(n === 1 && project.firstStill){
+      return '../images/work/' + project.slug + '/' + project.firstStill + '.jpeg';
+    }
+    return '../images/work/' + project.slug + '/' + project.slug + '-' + n + '.jpeg';
+  }
+
+  const p = projects.find(pr => pr.slug === CURRENT_SLUG) || projects[0];
+  const stillsColumn = document.getElementById('stillsColumn');
+
+  let stillsHtml = '';
+  for(let n = 1; n <= p.count; n++){
+    stillsHtml += '<img src="' + stillUrl(p, n) + '" alt="' + p.title + ' — ' + p.meta + ', still ' + n + ', cinematography by Remy Webber" loading="' + (n === 1 ? 'eager' : 'lazy') + '">';
+  }
+  stillsColumn.innerHTML = stillsHtml;
+
+  document.addEventListener('keydown', (e) => {
+    if(e.key === 'ArrowLeft') document.getElementById('prevProject').click();
+    if(e.key === 'ArrowRight') document.getElementById('nextProject').click();
+  });
+</script>
+
+</body>
+</html>
