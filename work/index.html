@@ -69,8 +69,7 @@
         { "@type": "ListItem", "position": 5, "item": { "@type": "CreativeWork", "name": "Housemate from Hell", "genre": "Short Film", "director": { "@type": "Person", "name": "Jessica Fisher" }, "creator": { "@id": "https://remywebber.com/#person" }, "image": "https://remywebber.com/images/work/housematefromhell/shortfilm-alexa-mini-lf-dzoarles-ACS-awards-cinematography.png", "url": "https://remywebber.com/project/housematefromhell/" } },
         { "@type": "ListItem", "position": 6, "item": { "@type": "CreativeWork", "name": "Travel Money Oz — \u201cFeverdream\u201d", "genre": "Commercial", "director": { "@type": "Person", "name": "Reilly Vanniekerk" }, "creator": { "@id": "https://remywebber.com/#person" }, "image": "https://remywebber.com/images/work/travelmoneyoz/commercial-alexa-mini-lf-tokinavista-ACS-awards-cinematography.png", "url": "https://remywebber.com/project/travelmoneyoz/" } },
         { "@type": "ListItem", "position": 7, "item": { "@type": "CreativeWork", "name": "Solitude", "genre": "Short Film", "director": { "@type": "Person", "name": "Maia Jorgensen" }, "creator": { "@id": "https://remywebber.com/#person" }, "image": "https://remywebber.com/images/work/solitude/shortfilm-alexa-mini-lf-mamiya-ACS-awards-cinematography.png", "url": "https://remywebber.com/project/solitude/" } },
-        { "@type": "ListItem", "position": 8, "item": { "@type": "CreativeWork", "name": "Mud Man", "genre": "Dance Film", "director": { "@type": "Person", "name": "Madi Lee-Hislop" }, "creator": { "@id": "https://remywebber.com/#person" }, "image": "https://remywebber.com/images/work/mudman/dancefilm-alexa-mini-lf-sigma-ACS-awards-cinematography.png", "url": "https://remywebber.com/project/mudman/" } },
-        { "@type": "ListItem", "position": 9, "item": { "@type": "CreativeWork", "name": "Dont Bite", "genre": "Visualiser", "director": { "@type": "Person", "name": "Seth Griffiths-Kemp" }, "creator": { "@id": "https://remywebber.com/#person" }, "image": "https://remywebber.com/images/work/dontbite/visualiser-alexa-mini-lf-zeiss-ACS-awards-cinematography.png", "url": "https://remywebber.com/project/dontbite/" } }
+        { "@type": "ListItem", "position": 8, "item": { "@type": "CreativeWork", "name": "Mud Man", "genre": "Dance Film", "director": { "@type": "Person", "name": "Madi Lee-Hislop" }, "creator": { "@id": "https://remywebber.com/#person" }, "image": "https://remywebber.com/images/work/mudman/dancefilm-alexa-mini-lf-sigma-ACS-awards-cinematography.png", "url": "https://remywebber.com/project/mudman/" } }
       ]
     }
   ]
@@ -214,9 +213,9 @@
     border-width:11px 0 11px 18px;
     border-color:transparent transparent transparent #F5F2E8;
   }
-  /* Featured reel frame, now shown below the project grid — 16:9, centred,
+  /* Featured reel frame, shown below the project grid — 16:9, centred,
      and synced by JS to the same rendered height as a project tile above
-     it. Unlike the project tiles, its caption only appears on hover. */
+     it. Caption only appears on hover, same as the tiles. */
   .reel-featured{
     display:flex;
     justify-content:center;
@@ -346,8 +345,7 @@
     { title:"Housemate from Hell",  slug:"housematefromhell",  anchor:"housemate-from-hell",         meta:"Dir. Jessica Fisher — Short Film",       count:10, firstStill:"shortfilm-alexa-mini-lf-dzoarles-ACS-awards-cinematography", camera:'ARRI Alexa Mini LF — DZO Arles Primes' },
     { title:"Travel Money Oz — “Feverdream”", slug:"travelmoneyoz", anchor:"travel-money-oz-feverdream", meta:"Dir. Reilly Vanniekerk — Commercial", count:6, firstStill:"commercial-alexa-mini-lf-tokinavista-ACS-awards-cinematography", camera:'ARRI Alexa Mini LF — Tokina Vista Primes' },
     { title:"Solitude",             slug:"solitude",            anchor:"solitude",                    meta:"Dir. Maia Jorgensen — Short Film",       count:9,  firstStill:"shortfilm-alexa-mini-lf-mamiya-ACS-awards-cinematography", camera:'ARRI Alexa Mini LF — Mamiya 645, Zeiss CP2 Primes' },
-    { title:"Mud Man",              slug:"mudman",              anchor:"mud-man",                     meta:"Dir. Madi Lee-Hislop — Dance Film",      count:7,  firstStill:"dancefilm-alexa-mini-lf-sigma-ACS-awards-cinematography", camera:'ARRI Alexa Mini LF — Canon Sumire Primes' },
-    { title:"Dont Bite",            slug:"dontbite",            anchor:"dont-bite",                   meta:"Dir. Seth Griffiths-Kemp — Visualiser",  count:6,  firstStill:"visualiser-alexa-mini-lf-zeiss-ACS-awards-cinematography", camera:'Sony FX6 — Tokina Vista Primes' }
+    { title:"Mud Man",              slug:"mudman",              anchor:"mud-man",                     meta:"Dir. Madi Lee-Hislop — Dance Film",      count:7,  firstStill:"dancefilm-alexa-mini-lf-sigma-ACS-awards-cinematography", camera:'ARRI Alexa Mini LF — Canon Sumire Primes' }
   ];
 
   function stillUrl(project, n){
